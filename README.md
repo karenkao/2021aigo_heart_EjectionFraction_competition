@@ -42,3 +42,5 @@
 
 ![image](https://user-images.githubusercontent.com/44295049/137456010-8d296b0d-3f67-4f39-9823-d4c20136998e.png)
 
+## 使用
+參考main_script.ipynb
