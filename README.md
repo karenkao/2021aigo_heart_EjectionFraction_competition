@@ -1,0 +1,2 @@
+# 2021aigo_heart_EjectionFraction_competition
+藉由深度學習自動偵測左心室攝影之心臟射出率—建立心衰竭及結構異常之預警平台
