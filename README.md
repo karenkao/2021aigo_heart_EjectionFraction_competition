@@ -4,6 +4,9 @@
 ## 目地
 開發一個心導管左心室攝影心臟分割模型(segmentation)，並計算出左心室射出率（LVEF）之指數。
 
+## 環境建置
+`conda env create -f heart.yml`
+
 ## 方法
 - 心臟顯影劑物件偵測模型: 使用yolov5與YOLOv5l6預訓練權重，偵測該張左心室攝影影像其心臟是否顯影劑充滿，訓練時使用CLAHE提高影像對比與資料增強(Data augmentation)，如mosaic、mixup、剛性變換與非剛性變換，如彈性變換(ElasticTransform)、網格變換(GridDistortion)、光學畸變(OpticalDistortion)、仿射(Affine)等。
 - 心臟影像分割模型：使用2.5D unet搭配VGG16為骨幹並採用Imagenet為預訓練權重。訓練時使用CLAHE提高影像對比與14倍資料增強(Data augmentation)包含剛性變換與非剛性變換等。針對損失函數採取二階段訓練，先以combo loss(CE loss, Dice loss) 為初期訓練，待收斂後以focal loss 進行訓練，以解決資料不平衡(imbalance)的問題。
