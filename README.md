@@ -22,7 +22,7 @@
 
   - 計算平均LVEF():
 
-<img align="center" src="https://user-images.githubusercontent.com/44295049/137453071-ec831130-9ec2-4d6c-83ce-53f2a21832f5.png" width="400" />
+<img align="center" src="https://user-images.githubusercontent.com/44295049/137453071-ec831130-9ec2-4d6c-83ce-53f2a21832f5.png" width="600" />
 
 ## 模型成效
 - 心臟顯影劑物件偵測模型(僅training validation):
