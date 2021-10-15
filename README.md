@@ -12,13 +12,13 @@
   - 極值點法extremepoint（下圖中):使用opencv findContours找出該心臟分割mask極值點，即為最左至最右點連線為長軸。
   - 橢圓形法ellipse (下圖右):使用opencv fitEllipse逼近該心臟分割mask之橢圓形 ，其橢圓長軸為長軸。
  
-![image](https://user-images.githubusercontent.com/44295049/137444917-e312fad1-011c-4f32-a7d1-53096459ff32.png){ width=50% }
+![image](https://user-images.githubusercontent.com/44295049/137444917-e312fad1-011c-4f32-a7d1-53096459ff32.png){ width=20% }
 
 - 計算左心室射出率(LVEF)
   - V=volume, A=心臟面積; L=左心室長軸
   - LVEF = (心臟舒張容積-心臟收縮容積)/心臟舒張容積 * 100%
   
-![image](https://user-images.githubusercontent.com/44295049/137442560-3a01f7bb-6c91-41f1-9899-d991fe539afc.png){ width=50% }
+![image](https://user-images.githubusercontent.com/44295049/137442560-3a01f7bb-6c91-41f1-9899-d991fe539afc.png){ width=20% }
   
   - 計算平均LVEF():
   
