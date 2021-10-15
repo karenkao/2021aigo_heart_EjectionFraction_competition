@@ -25,6 +25,7 @@
   - mAP@0.5: 0.988
   - precision: 0.963
   - recall: 0.974
+
 ![image](https://user-images.githubusercontent.com/44295049/137448452-8b17dc5c-9c37-4bff-bd48-5093773c7feb.png)
 
 - 心臟影像分割模型(測試於14個左心室攝影):
