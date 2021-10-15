@@ -21,9 +21,8 @@
 <img align="center" src="https://user-images.githubusercontent.com/44295049/137442560-3a01f7bb-6c91-41f1-9899-d991fe539afc.png" width="200" />
 
   - 計算平均LVEF():
- 
-<img align="center" src="https://user-images.githubusercontent.com/44295049/137450916-3431595b-f2bc-4cb1-bca0-b4fbb79e4f4b.png" width="400" />
-<img align="center" src="https://user-images.githubusercontent.com/44295049/137450893-b0085fca-fed7-4b4a-88bd-f5e47f6a77de.png" width="400" />
+
+<img align="center" src="https://user-images.githubusercontent.com/44295049/137453071-ec831130-9ec2-4d6c-83ce-53f2a21832f5.png" width="400" />
 
 ## 模型成效
 - 心臟顯影劑物件偵測模型(僅training validation):
