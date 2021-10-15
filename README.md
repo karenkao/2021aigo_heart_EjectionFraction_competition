@@ -14,11 +14,11 @@
  
 <img align="center" src="https://user-images.githubusercontent.com/44295049/137444917-e312fad1-011c-4f32-a7d1-53096459ff32.png" width="600" />
 - 計算左心室射出率(LVEF)
+  
   - V=volume, A=心臟面積; L=左心室長軸
   - LVEF = (心臟舒張容積-心臟收縮容積)/心臟舒張容積 * 100%
 
 <img align="center" src="https://user-images.githubusercontent.com/44295049/137442560-3a01f7bb-6c91-41f1-9899-d991fe539afc.png" width="200" />
-
   - 計算平均LVEF():
  
 <img align="center" src="https://user-images.githubusercontent.com/44295049/137450916-3431595b-f2bc-4cb1-bca0-b4fbb79e4f4b.png" width="400" />
