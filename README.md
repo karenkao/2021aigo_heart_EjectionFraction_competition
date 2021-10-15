@@ -22,11 +22,10 @@
 
 ## 模型成效
 - 心臟顯影劑物件偵測模型(僅training validation):
-  - map
-  - precision
-  - recall
-![image](https://user-images.githubusercontent.com/44295049/137447569-984efb25-49a7-4337-bbd1-998f34ead499.png)| ![image](https://user-images.githubusercontent.com/44295049/137447861-836d5eec-0543-448a-bc34-63c8164c93b1.png) | ![image](https://user-images.githubusercontent.com/44295049/137447961-fc048fd1-6535-4424-9150-4174b9cb0b57.png)
-
+  - mAP@0.5: 0.988
+  - precision: 0.963
+  - recall: 0.974
+![image](https://user-images.githubusercontent.com/44295049/137448452-8b17dc5c-9c37-4bff-bd48-5093773c7feb.png)
 
 - 心臟影像分割模型(測試於14個左心室攝影):
 - 計算心臟長軸演算法(測試於14個左心室攝影):
