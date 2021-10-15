@@ -21,7 +21,7 @@
 <p align="center"><img src="https://user-images.githubusercontent.com/44295049/137442560-3a01f7bb-6c91-41f1-9899-d991fe539afc.png" width="200" /></p>
 
   - 計算平均左心室射出率LVEF(avg EF):
-將分割出的心臟mask(如下圖左)，計算出每個心臟週期對應的左心室射出率，取次大的LVEF與全域最大心臟舒張與最小心臟收縮計算出的LVEF進行平均，得到平均左心室射出率LVEF(下圖右)
+將分割出的心臟mask依照slice順序排列(如下圖左)，計算出每個心臟週期對應的左心室射出率，取次大的LVEF與全域最大心臟舒張與最小心臟收縮計算出的LVEF進行平均，得到平均左心室射出率LVEF(下圖右)
 <p align="center"><img src="https://user-images.githubusercontent.com/44295049/137453071-ec831130-9ec2-4d6c-83ce-53f2a21832f5.png" width="600" /></p>
 
 ## 模型成效
@@ -35,3 +35,7 @@
 - 心臟影像分割模型(測試於14個左心室攝影):
   - 平均 Dice係數: 0.879
 - 計算心臟長軸演算法(測試於14個左心室攝影):
+共驗證於14筆測試資料，其中有三筆
+
+![image](https://user-images.githubusercontent.com/44295049/137456010-8d296b0d-3f67-4f39-9823-d4c20136998e.png)
+
