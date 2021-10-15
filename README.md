@@ -17,13 +17,10 @@
   - V=volume, A=心臟面積; L=左心室長軸
   - LVEF = (心臟舒張容積-心臟收縮容積)/心臟舒張容積 * 100%
  
-<img align="center" src="https://user-images.githubusercontent.com/44295049/137442560-3a01f7bb-6c91-41f1-9899-d991fe539afc.png" width="400" />
+<img align="center" src="https://user-images.githubusercontent.com/44295049/137442560-3a01f7bb-6c91-41f1-9899-d991fe539afc.png" width="200" />
   - 計算平均LVEF():
-  
-  ![image](https://user-images.githubusercontent.com/44295049/137450916-3431595b-f2bc-4cb1-bca0-b4fbb79e4f4b.png){ width=50% }
-
-  ![image](https://user-images.githubusercontent.com/44295049/137450893-b0085fca-fed7-4b4a-88bd-f5e47f6a77de.png)
-
+<img align="center" src="https://user-images.githubusercontent.com/44295049/137450916-3431595b-f2bc-4cb1-bca0-b4fbb79e4f4b.png" width="200" />
+<img align="center" src="https://user-images.githubusercontent.com/44295049/137450893-b0085fca-fed7-4b4a-88bd-f5e47f6a77de.png" width="200" />
 
 ## 模型成效
 - 心臟顯影劑物件偵測模型(僅training validation):
